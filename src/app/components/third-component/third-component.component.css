@@ -1,1 +1,9 @@
- 
+.main {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 05px 10px;
+    transition: transform 0.2s;
+    width: 300px;
+    text-align: center;
+}
