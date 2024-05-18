@@ -1,0 +1,15 @@
+
+<div class="main">
+        <p>first-component works!</p>
+            <label for="first">Firstname:</label>
+            <input type="text"  [(ngModel)]="user.firstName" placeholder="Enter your Firstname" required>
+
+            <label for="password">Lastname:</label>
+            <input type="text" [(ngModel)]="user.lastName"placeholder="Enter your Lastname" required>
+
+            <div class="wrap">
+                <button type="submit"(click)="solve(user)">Submit</button>
+                <button class="redbtn" type="submit"(click)="clearVale()">clearCompenent</button>
+            </div>
+
+    </div>
